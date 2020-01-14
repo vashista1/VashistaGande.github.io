@@ -81,6 +81,9 @@ img{
 .has-margin-right{
      margin-right: 5rem;
 }
+.fun{
+     margin-right: 5rem;
+}
 /*End reusable*/
 
 /*Start header*/
@@ -312,7 +315,7 @@ li{
      flex: 2;
 }
 .portfolio-description{
-     flex: 2;
+     flex: 3;
 }
 .portfolio-description h1{
      font-size: 3rem;
@@ -337,6 +340,20 @@ li{
 .portfolio-description .cta:hover{
      color: #2f67cd;
 }
+.portfolio-description .ce{
+     display: inline-block;
+     margin-top: 2.5rem;
+     flex: 4;
+     /* padding-left: 15rem; */
+     padding-left: 41.5%;
+     font-size: 2rem;
+     text-transform: uppercase;
+     color: #3883ff;
+     transition: color 650ms;
+}
+.portfolio-description .ce:hover{
+     /* color: #2f67cd; */
+}
 /*End services*/
 
 /*Start timeline*/
@@ -352,11 +369,18 @@ li{
      width: 70%;
 }
 .timeline h1{
-     font-size: 2.2rem;
+     font-size: 2.5rem;
      text-transform: uppercase;
      font-weight: 300;
      margin-bottom: 1rem;
      opacity: 0.9;
+}
+.timeline h2{
+     font-size: 1.9rem;
+     text-transform: uppercase;
+     font-weight: 210;
+     margin-bottom: 1rem;
+     opacity: 0.7;
 }
 .timeline h3{
      font-size: 1.5rem;
@@ -365,6 +389,7 @@ li{
      margin-bottom: 1rem;
      opacity: 0.5;
 }
+
 .timeline p{
      font-size: 1.8rem;
      opacity: 0.75;
